@@ -1,0 +1,23 @@
+
+Kaynak : https://www.git-scm.com/docs/git-init
+init : Boş bir Git deposu oluşturun veya mevcut olanı yeniden başlatın
+
+Bu komut boş bir Git deposu oluşturur; temel olarak nesneler,
+refs/heads, refs/tags ve şablon dosyaları için alt dizinlere sahip bir .git dizini.
+Herhangi bir taahhüt içermeyen bir ilk dal oluşturulacaktır
+(adı için aşağıdaki --initial-branch seçeneğine bakın).
+
+$GIT_DIR ortam değişkeni ayarlanmışsa, depo tabanı için ./.git yerine
+kullanılacak yolu belirtir.
+
+Nesne depolama dizini $GIT_OBJECT_DIRECTORY ortam değişkeni aracılığıyla belirtilirse
+sha1 dizinleri altında oluşturulur; aksi takdirde varsayılan $GIT_DIR/objects dizini
+kullanılır.
+
+Git init'i mevcut bir depoda çalıştırmak güvenlidir.
+Zaten orada olan şeylerin üzerine yazılmayacaktır.
+Git init'i yeniden çalıştırmanın birincil nedeni, yeni eklenen şablonları almaktır
+(veya --separate-git-dir verilmişse depoyu başka bir yere taşımaktır).
+
+$ git init : Boş bir Git deposu oluşturun veya mevcut olanı yeniden başlatın
+$ git init -q veya --quiest : Yalnızca hata ve uyarı mesajlarını yazdırın; diğer tüm çıktılar bastırılacaktır.

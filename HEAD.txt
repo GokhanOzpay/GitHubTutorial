@@ -1,0 +1,4 @@
+
+HEAD : Git içinde Nerde Olduğumuzu Gösterir hem commit hem branch olarak
+commit enson nerde olduğunu gösteren kısım olabiliyor
+log kısımdan bakarsan HEAD İbaresini Görceksin

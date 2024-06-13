@@ -1,0 +1,27 @@
+
+Kaynak : https://www.git-scm.com/docs/git-status
+Status : Çalışan ağaç durumunu göster
+İndeks dosyası ile geçerli HEAD işlemi arasında farklar olan yolları,
+ çalışma ağacı ile indeks dosyası arasında farklar bulunan yolları ve çalışma ağacında Git tarafından izlenmeyen
+ (ve gitignore tarafından göz ardı edilmeyen) yolları görüntüler. ).
+ Bunlardan ilki, git commit'i çalıştırarak taahhüt edeceğiniz şeylerdir;
+ ikincisi ve üçüncüsü, git commit'i çalıştırmadan önce git add'i çalıştırarak gerçekleştirebileceğiniz şeylerdir.
+ 
+$ git status : Yapılan işlemi Gösterir
+	On branch main
+	Your branch is up to date with 'origin/main'.
+	Changes not staged for commit:
+	(use "git add <file>..." to update what will be committed)
+	(use "git restore <file>..." to discard changes in working directory)
+        modified:   config.txt
+	no changes added to commit (use "git add" and/or "git commit -a")
+
+ $ git status -s veya --short : Çıktıyı kısa formatta verin.
+	M config.txt
+	?? Status.txt
+$ git status --long : Çıktıyı uzun formatta verin. Bu varsayılandır.($ git status Aynısı)
+	
+$ git status -b veya -- branch : Şube ( branch ) ve takip bilgilerini kısa formatta bile gösterin.
+$ git status --show-stash : Şu anda saklanan ( stash ) girişlerin sayısını gösterin.
+
+Diğer status için git Document Bak

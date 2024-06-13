@@ -1,0 +1,18 @@
+
+Kaynak : https://www.git-scm.com/docs/git-config
+config : Depoyu veya genel seçenekleri alın ve ayarlayın
+
+$ git config --global init.defaultBranch main // defaultBranch Adı Değistirme
+$ git config --global init.defaultBranch // defaultBranch ne Olduğunu Getiriyor
+$ git config --global user.name "Name" // user name Değişimi
+$ git config --global user.email "exlame@hotmail.com" // user email değişimi
+$ git config --global core.editor // Editor Ne Olduğunu Gösteriyor
+$ git config --global core.editor "İde adı veya Yolu"// Editor Değişimi
+$ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+
+$ git config --list --show-origin // Tüm ayarlarınızı ve onların nereden geldiğini görmek için şu komutu kullanabilirsiniz:
+$ git config --list // Eğer yapılandırma ayarlarınızı gözden geçirmek istiyorsanız
+
+// Ayrıca Git’in belli bir anahtarın değeri hakkında ne düşündüğünü görmenin yolu da şu şekildedir
+git config <key> 
+$ git config user.name 

@@ -1,0 +1,11 @@
+
+Kaynak : https://www.git-scm.com/docs/git-switch
+Switch : Şube (Branch) değiştir. 
+
+$ git switch branchAdı : branch Değişimi Gerçeklesir.
+$ git switch -c branchAdı veya --create branchAdı : Yeni branch Olusturur ve Geçiş Sağlar
+$ git switch -C branchAdı : Zorlayarak Yeni branch Olusturur ve Geçiş Sağlar
+$ git switch -d veya --detach : İnceleme ve atılabilir deneyler için taahhüde geçin
+	(HEAD detached at refs/heads/main) Durumuna gecer
+
+Diğer Komutlar İçin Documents Bakın

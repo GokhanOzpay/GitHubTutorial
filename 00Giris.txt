@@ -1,0 +1,28 @@
+
+Kurulum ve Tanıtım
+Git'in Sitesi : https://www.git-scm.com/
+Pc Uygulaması İndirme Yeri : https://www.git-scm.com/downloads
+
+Kurulum İçin Gerekli Olan Pc Sürümünü İndirin
+IOS ve Linux İçin Güncel Sistemlerde Yüklü Gelir Gelmiyenler İçinde Mevcut
+Windows Kullanıcıları İndirmek Zorunda Simdilik
+Git Kurulumu Videolaru Güncel Sekilde Youtube Mevcuttur
+Sadece branch seçerken main Yabmanızı Önerim Hala Tartısılan Konu Olmasına Rağmen GitHub Geçiş Yapmısdır.
+Çalısma Alanı Kaydetmeyi Unutmayın
+Kullanıcı Adı ve Email Sonrada Girebilirsiniz config Konusunda Bulunuyor.
+Windows Kullanımı Git Bash Standart Yolu C:\Program Files\Git
+Git Bash Gitin CMD Kısmı Diyebiliriz Diğer Bir Terim Terminal(IOS ve Linux dan Gelme)
+
+Git Nedir Sorusuna Basit Bir Cevap Vermek Gerekirse Terminal ile Kullanılan Version Kontrol Sistemi Diyebiliriz.
+Ne Yaparız Git'le Sorusuna Projelerimizi Calısırken Geri Alma Sansı Verebilen Sistem Desek Olur
+Projemizi Group Çalısmasında Kullanırken Farklı Yollar İçinde Çalısmamızı Sağlar.
+Örnek Vermek Gerkirse Bir Kullanıcı Web Sayfası Ara Yüzü Yaparken Diğer Kullanıcı Arkada Çalısan Code Yazabilir.
+Daha Kısa Surede Proje Teslimi Olur.
+Tek Kullanıcı Düsünürsek Bir Arayüz Bir Code Yazarak Projeyi Hataları Azatabiliriz
+
+GitHub Nedir Sorusuna Kişisel Git Sunucumuz Diyebiliriz.
+Projemizi GitHub Atarak Group Çalısmasını İnternet Sunucusunda Sağlamıs Oluruz.
+GitHub Acık Kaynak Olduğundan Başkalarıylada Paylasarak Fikirler Alma Sansımızı Kolaylastırıyor
+
+Burda Anlatılan Kademeli Sekilde Dosyalar Halinde Anlatmaya Çalışma Gerçeklesdircem
+Ve Bu Konular Hem Size Hem Kendime Faydalı Olması İçin Hazırlandı.   

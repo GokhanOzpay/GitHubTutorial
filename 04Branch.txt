@@ -1,0 +1,19 @@
+
+Kaynak : https://www.git-scm.com/docs/git-branch
+branch : Şubeleri listeleyin, oluşturun veya silin
+
+$ git branch : branch Listesi
+$ git branch -l veya --list : branch Listesi
+$ git branch -a veya --all : Hem uzaktan takip edilen şubeleri hem de yerel şubeleri listeleyin.
+	İsteğe bağlı desen(ler)i eşleştirmek için --list ile birleştirin.
+$ git branch branchAdı : Yeni branch Ekler branchAdı ile
+$ git branch -d branchAdı : branchAdı olanı branchdan siler
+$ git branch -d veya --delete
+$ git branch -D : Zorlayarak Silme
+$ git branch -M branchAdı : Zorlayarak branch Tasıma Genelde Uzak Sunucu (remote) İşleminde
+$ git branch -r veya --remotes : Uzaktan izleme dallarını listeleyin veya silin 
+	(-d ile kullanılıyorsa). İsteğe bağlı desen(ler)i eşleştirmek için --list ile birleştirin.
+$ git branch -v,-vv veya --verbose : Liste modundayken, her başlık için sha1'i ve taahhüt konu satırını,
+	yukarı akış şubesiyle (varsa) ilişkiyle birlikte gösterin.
+	
+Diğer Komutlar icin Documents Bakın

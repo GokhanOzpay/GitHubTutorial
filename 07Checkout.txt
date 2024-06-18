@@ -3,3 +3,16 @@ checkout : Dalları değiştirin veya çalışan ağaç dosyalarını geri yükl
 Kaynak : https://www.git-scm.com/docs/git-checkout
 
 git checkout [-q] [-f] [-m] [<branch>]
+
+branch İşlemleri
+$ git checkout  // main branch da Yabılan Değişiklik
+$ git checkout  branchAdı // branch Değişimi
+$ git checkout -q veya --quiet branchAdı // Mesajsız branch Değişimi
+$ git checkout -f veya --force branchAdı // Zorlayarak branch Değişimi DETACHED HEAD Durumda Kullanılması Doğru Terçih
+$ git checkout -m veya --merge branchAdı // Merge İşlemi İle Değişim Şağlar
+$ git checkout -d veya --detach branchAdı // HEAD branch Koparıyor
+
+Geri Dönüs İşlemleri
+git checkout [-q] [-f] [-m] [--detach] <commit>
+$ git checkout commitNosu // Önceki Commite Dönüs
+

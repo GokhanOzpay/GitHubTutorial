@@ -1,0 +1,5 @@
+
+checkout : Dalları değiştirin veya çalışan ağaç dosyalarını geri yükleyin
+Kaynak : https://www.git-scm.com/docs/git-checkout
+
+git checkout [-q] [-f] [-m] [<branch>]

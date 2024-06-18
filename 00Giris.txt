@@ -24,5 +24,14 @@ GitHub Nedir Sorusuna Kişisel Git Sunucumuz Diyebiliriz.
 Projemizi GitHub Atarak Group Çalısmasını İnternet Sunucusunda Sağlamıs Oluruz.
 GitHub Acık Kaynak Olduğundan Başkalarıylada Paylasarak Fikirler Alma Sansımızı Kolaylastırıyor
 
+Git İçin Kullanılcak IDE
+Hemen HEmen Bir Cok IDE Desteklemekdedir.
+Kurulum Esnasında Değiştirmeyi Unutma Default Bıraz Sıkıntılı Gelir Kullanılan Bir IDE Değil 
+IDE Kullamak Projelerde Kullanım Kolaylığı Sağlıyor. 
+Eclipse İçinde Kurulu Geliyor
+Sol cetvele sağ tıklayın Show In->Git Repositories ile yeni dosya yolunu görürsün
+
 Burda Anlatılan Kademeli Sekilde Dosyalar Halinde Anlatmaya Çalışma Gerçeklesdircem
-Ve Bu Konular Hem Size Hem Kendime Faydalı Olması İçin Hazırlandı.   
+Ve Bu Konular Hem Size Hem Kendime Faydalı Olması İçin Hazırlandı.
+
+  

@@ -2,3 +2,13 @@
 HEAD : Git içinde Nerde Olduğumuzu Gösterir hem commit hem branch olarak
 commit enson nerde olduğunu gösteren kısım olabiliyor
 log kısımdan bakarsan HEAD İbaresini Görceksin
+
+$ git log
+commit 3c243dd1f88daae9754e78fca04ccdbf86cac64d (HEAD -> main, origin/main)
+
+Burda Son Atılan Commit HEAD main Attığını origin(Uzak Sunucu Takma Adı) mainde Olduğunu Göstermekdedir
+
+Ancak bazı nadir durumlarda HEAD dosyası Git nesnesinin SHA-1 değerini içerebilir.
+ Bu, deponuzu "DETACHED HEAD" durumuna getiren bir etiketi,
+ işlemi veya uzak şubeyi teslim aldığınızda meydana gelir.
+ Yani HEAD Boşa Çıkar Gibi Olur

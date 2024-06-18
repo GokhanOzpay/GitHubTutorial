@@ -1,0 +1,9 @@
+
+Help : Yardım Alma
+Kaynak : https://www.git-scm.com/book/tr/v2/Ba%C5%9Flang%C4%B1%C3%A7-Yard%C4%B1m-Almak
+$ git help <verb>
+$ git <verb> --help
+
+$ git help config // Yeni Bir Taracıda Yardım Document Ulasırsın
+$ git add --help // Yeni Bir Taracıda Yardım Document Ulasırsın
+Help Dosyaları C:/Program%20Files/Git/mingw64/share/doc/git-doc

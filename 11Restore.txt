@@ -1,0 +1,14 @@
+
+Restore : Yaplan Değişikliği add den Geri Alıyor
+Kaynak : https://www.git-scm.com/docs/git-restore
+
+işlem Yabdıkdan Sonra 
+$ git add dosyaAdı 
+İşelem Kaydettik Sonra Yanlışlık Olduğunu Farkkettik
+$ git restore dosyaAdı // ile Yapılan add den  Geri Almıs Olduk
+
+--staged Komut aynı zamanda dizindeki içeriği ile geri yüklemek veya hem çalışma
+ ağacını hem de dizini ile geri yüklemek için de kullanılabilir --staged --worktree.
+ $ git restore --staged dosyaAdı
+ 
+ --source Farklı bir taahhütten geri yüklemek için kullanın .

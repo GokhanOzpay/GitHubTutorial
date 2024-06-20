@@ -1,0 +1,12 @@
+
+Notes : Nesne notlarını ekleyin veya inceleyin
+Kaynak : https://www.git-scm.com/docs/git-notes
+
+$ git notes // Note Listesini Veriyor
+$ git notes append -m "Mesaj" // Son commit'te Note Ekliyor
+$ git notes show // HEAD Olduğu Yerdeki Note Gösterir.
+$ git notes remove // HEAD Olduğu Yerdeki Note Siliyor
+$ git notes add -m "mesaj" // HEAD Olduğu Yerdeki Note Ekliyor.
+$ git notes append -m "Mesaj" // HEAD Olduğu Yerdeki Ekleme Note Ekliyor
+$ git notes add commitNosu -m "Mesaj" // Belirtilen Commit'te Note Ekleme
+$ git notes remove commitNosu // Belirtilen Commitdeki Note Silme

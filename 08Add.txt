@@ -3,6 +3,7 @@ add : Dosya içeriğini dizine ekleme
 Kaynak : https://www.git-scm.com/docs/git-add
 
 Commit etmeden önce Bu komut ile ön hazırlık Yapılır
+(staging area) Denilen Bölüme Atar
 
 $ git add dosyaAdı // Dosya Ekler
 $ gir add . //Klasor icindeki herşeyi ekler

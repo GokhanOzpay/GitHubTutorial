@@ -19,5 +19,6 @@ Zaten orada olan şeylerin üzerine yazılmayacaktır.
 Git init'i yeniden çalıştırmanın birincil nedeni, yeni eklenen şablonları almaktır
 (veya --separate-git-dir verilmişse depoyu başka bir yere taşımaktır).
 
-$ git init : Boş bir Git deposu oluşturun veya mevcut olanı yeniden başlatın
-$ git init -q veya --quiest : Yalnızca hata ve uyarı mesajlarını yazdırın; diğer tüm çıktılar bastırılacaktır.
+$ git init // Boş bir Git deposu oluşturun veya mevcut olanı yeniden başlatın
+$ git init -b branchAdı// Boş bir Git deposu oluşturun veya mevcut olanı yeniden başlatın ve Bir brnach Ekler Bunu Kullan
+$ git init -q veya --quiest // Yalnızca hata ve uyarı mesajlarını yazdırın; diğer tüm çıktılar bastırılacaktır.

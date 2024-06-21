@@ -1,5 +1,5 @@
 
-Restore : Yaplan Değişikliği add den Geri Alıyor
+Restore : Yapılan Değişikliği add den Geri Alıyor
 Kaynak : https://www.git-scm.com/docs/git-restore
 
 işlem Yabdıkdan Sonra 

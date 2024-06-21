@@ -6,5 +6,4 @@ Yapılan Değişiklikler add Yabdıkdan Sonra Kayıt İşlemini Gerçeklesir
 commit Eterken -m (mesaj) Eklemessen Tanıtılmıs IDE ile Girmeni isdiyor
 
 $ git commit -m "Commit Mesajı" // Commit işlemi Gerceklesir Ve Birde Mesaj Ekler
-$ git commit -am "Commit Mesajı" // add Yapıp Mesajla Commit Etiyor
-$ git commit -a // add yapıp commit etiyor
+$ git commit -a // add yapıp commit etiyor editorde Mesaj Yazmanı Bekler

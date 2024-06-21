@@ -1,0 +1,12 @@
+
+Reset : Geçerli HEAD'i belirtilen duruma sıfırla Commit Geri alma silme  İşlemi
+Kaynak : https://www.git-scm.com/docs/git-reset
+
+$ git reset commitNosu // Nosundan Sonraki commitleri Siliyor 
+$ git reset --soft commitNosu // Nosundan Sonraki commitleri Bırakıyor Head Oraya Geçiriyor
+		Bir Önceki İşlemler Duruyor Ve Onları add(staging area) Kısmında Alınmıs Olarak Görünür
+$ git reset --mixed commitNosu // Nosundan Sonraki commitleri Siliyor icindeki veriler duruyor
+		( working directory ) add Olmamıs Haline Döner
+$ git reset --hard commitNosu // Nosundan Sonraki commitleri Siliyor Ve Yapılan Bütün İşlemler Kaldırır
+
+$ git reset --soft HEAD~1 (~ kısayolu AltGr+ü) HEAD Sayısına Göre Geri Almıs Oluyor HEAD~1 1 geri HEAD~2 2 geri Gibi

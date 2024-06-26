@@ -26,3 +26,4 @@ Dosyaları Gördünüz Gibi Numaralandı Sıralı Sekilde Gitilmesi Daha Rahat A
 * Notes : Commit Merge Not Ekleme
 * Restore : Yapılan Değişikliği add (Staging Area) den Geri Alıyor
 * Reset : Commit Silme Yapılan İşlemleri Geri Alma Yada İsdenilen Commite Geri Dönüs
+* Merge : Branch Birlestirme

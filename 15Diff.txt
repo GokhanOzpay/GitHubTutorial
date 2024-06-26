@@ -1,0 +1,13 @@
+
+Diff : Taahhütler, taahhüt ve çalışma ağacı vb. arasındaki değişiklikleri göster
+Kaynak : https://www.git-scm.com/docs/git-diff
+
+Çalışma ağacı ile dizin veya ağaç arasındaki değişiklikleri, dizin ile ağaç arasındaki değişiklikleri,
+ iki ağaç arasındaki değişiklikleri, birleştirmeden kaynaklanan değişiklikleri,
+ iki blob nesnesi arasındaki değişiklikleri veya diskteki iki dosya arasındaki değişiklikleri gösterin.
+ 
+ git add yabmadığında 
+$ git diff // güncel dosyada değişiklikleri gösteriyor
+$ git diff HEAD // son commite göre yabılan değişiklikleri Gösteriyor
+$ git diff commitNosu : commitNosu  // iki commit arasındaki farlar Bosulu yerine ( : ) Kullanabilir
+$ git diff branchAdı : branchAdı // iki branch arasındakı farkları gösteriyor

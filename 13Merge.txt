@@ -1,0 +1,20 @@
+
+Merge : İki veya daha fazla geliştirme geçmişini bir araya getirin Aynı Zamanda branch Birletirme
+Kaynak : https://www.git-scm.com/docs/git-merge
+Farklı Branch'ler Birlesdirme İşlemi Olarak Genellikle Kullanılır.
+main ile ikinci branch Birlesdirmis Oluruz.
+FAST-FORWARD MERGE : Sorunsuz Merge Olduğunda Bu Olayı Görmüs Oluruz.
+RESOLVE CONFLICTS : Birleştirmeye çalıştığınız iki dalın her ikisi de aynı dosyanın aynı bölümünü değiştirmişse 
+	Git hangi sürümün kullanılacağını çözemez. Bu Duruma RESOLVE CONFLICTS Denilir.
+	Bir birleştirme çakışmasıyla karşılaştığınızda git status komutunu çalıştırmak size 
+	hangi dosyaların çözülmesi gerektiğini gösterir.
+	Burda Suna Dikkat et IDE Seçili Olsun Yoksa vimdiff ISE'si İle Uğrasırsın
+	Bu Durum Olusduğunda IDE'de Farklılık Olan Dosya Görürsün İçinde
+	<<<<HEAD ........ >>>> Benzer Krakterleri Görcen Arasındaki Uyarılar Ne Olduğunu Bildiriyor
+	O Krakterler ve Yabdığın Değişikleri Onayla ve Kaydet commit Yabdığında İşlem Bitmis Olcak
+
+$ git merge branchAdı // mainde iken merge yabınca maine birlesdirmis olur
+
+
+
+

@@ -1,0 +1,13 @@
+
+Stash : Değişiklikleri kirli bir çalışma dizininde saklayın
+Kaynak : https://www.git-scm.com/docs/git-stash
+
+Çalışma dizininin ve dizinin geçerli durumunu kaydetmek, ancak temiz 
+bir çalışma dizinine geri dönmek istediğinizde kullanın .
+
+
+$ git stash // Veriyi Saklıyor veriyi
+$ git stash list // Güncel stashleri veriyor
+$ git stash pop // stash geri getiriyor ve siliyor
+$ git stash apply stashCode (stash@{0}) // listden gelen kod sadece bu kodasahip ekler
+$ git stash clear // Bütün stashleri siler

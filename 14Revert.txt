@@ -1,0 +1,7 @@
+
+Revert : Mevcut taahhütlerden bazılarını geri alın
+Kaynak : https://www.git-scm.com/docs/git-revert
+
+Commitleri silmeden gerideki commitden yeni commit atarak HEAD commit olarak yabıyor
+$ git revert commitNosu // Geri alınarak yeni commit olusuyor
+$ git revert HEAD~3 // HEAD Olduğu Yerden Üç Commit Geriye Giterk Yeni Commit Olusturma İşlemei

@@ -1,0 +1,26 @@
+
+Rebase : Taahhütleri başka bir temel ipucunun üzerine yeniden uygulayın
+Kaynak : https://www.git-scm.com/docs/git-rebase
+Not : Tarih Değişimi Yüzünden Kullanılması Sıkıntılı Ama gerekirse Kullan
+
+--continue : Birleştirme çakışmasını çözdükten sonra yeniden temellendirme işlemini yeniden başlatın.
+--skip : Geçerli yamayı atlayarak yeniden temellendirme işlemini yeniden başlatın.
+--abort : Yeniden temellendirme işlemini iptal edin ve HEAD'i orijinal dalına sıfırlayın.
+main branch Commitler ile ikinci branch ile birlestiriyor. Sorun su tarihleri değişmis oluyor
+
+$ git switch feat // branch geç
+$ git rebase main // Birlesdirme işlemi 
+
+branch mainde iken 
+$ git rebase branchAdı~2 // feat HEAD iki Alt Commit İle rebase Etmesini Soyler
+
+ rebase Yabdığımızda (feat|REBASE 3/5) HEAD Kısmında Görünuyorsa rebase Baslamıs olur 
+ Bu İşmein Gelme Sebebi Merge Conflict Yanı Birlesme Dosyalarında Çakısma Var Demekdir.
+ Çakısan Dosyaları Düzelt Merge İşlemindeki Gibi Dosyada İsaretliyor
+ Sonraki Asama Add
+ $ git rm veya add DosyaAdı // Dosyayı  Add Etmis Oluruz.
+ $ git rebase --continue //İle İşlemi Devam Ettirmis Olcaz ayrıyetden Conflict Olan Dosyalar Listeler
+ 
+ $ git rebase --skip // Geçerli yamayı atlayarak yeniden temellendirme işlemini yeniden başlatın.
+ iptal Etmek İcin
+$ git rebase --abort // Yeniden temellendirme işlemini iptal edin ve HEAD'i orijinal dalına sıfırlayın.

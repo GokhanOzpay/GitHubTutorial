@@ -1,0 +1,6 @@
+
+log : Kaydetme günlüklerini göster
+Kaynak : https://www.git-scm.com/docs/git-log
+
+$ git log // Kayıt Listesin Verir
+$ git log --log-size // Kayıt Listesini Verir ve Size Verir

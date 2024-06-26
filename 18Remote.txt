@@ -1,0 +1,21 @@
+
+Remote : İzlenen depo kümesini yönetin
+Kaynak : https://www.git-scm.com/docs/git-remote
+
+GitHub İle Bağlantı Kurmak İçin Kullanılan Özellik
+Şubelerini takip ettiğiniz depo kümesini ("uzaktan kumandalar") yönetin.
+
+Burda Kullanılan origin Takma Ad'dır. bu Adı Kullanrak Git İşlem Yapar
+$ git remote // Sunucu ayar adı
+$ git remote add origin https://github.com/KullanıcıAdı/RepositoriesAdı.git // Uzak sunucuyu eklemis oluyoruz
+$ git remote -v //uzak sunucuya okuma ve yazma sırasında kullanılacak kısa ad için sakladığı URL’leri gösteren
+$ git remote show origin // Belirli bir uzak sunucu hakkında daha fazla bilgi görmek istiyorsanız
+$ git remote rename eskiAd YeniAd // Uzaktan kumandanın tüm uzaktan izleme şubeleri ve yapılandırma ayarları güncellenir.
+$ git remote remove veya rm <name> // <name> Adlı uzaktan kumandayı kaldırın.
+
+Git klonunu taklit edin ancak yalnızca seçilen dalları izleyin
+$ mkdir project.git
+$ cd project.git
+$ git init
+$ git remote add -f -t master -m master origin git://example.com/git.git/
+$ git merge origin

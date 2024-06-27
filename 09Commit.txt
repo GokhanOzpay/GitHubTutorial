@@ -7,3 +7,4 @@ commit Eterken -m (mesaj) Eklemessen Tanıtılmıs IDE ile Girmeni isdiyor
 
 $ git commit -m "Commit Mesajı" // Commit işlemi Gerceklesir Ve Birde Mesaj Ekler
 $ git commit -a // add yapıp commit etiyor editorde Mesaj Yazmanı Bekler
+$ git commit -am "Mesaj" // Kullanımda Add Statusde Bakınca Yabmamıs Görüyor

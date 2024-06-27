@@ -1,0 +1,17 @@
+
+
+CMD Veya Terminal Kodları
+Klasor
+$ mkdir klasor ismi // Klasor Olusturma
+$ ls //klasor içindekileri lister
+$ ls -la // Gizli klasorleride listeler
+$ dir //klasor içindekileri lister
+$ git rm -r klasorAdı // Git Komutu İle Siliyoruz Yalnız .Git İcinde Olması Lazım
+$ rm -rf klasor adı // Klasoru Siliyor
+$ cd .. // Bir Önceki Klasor Yani Üst Klasor (parent)
+
+Dosya
+
+$ touch dosyaadı.txt//  Yeni Dosya Olusturmak için Kullanılır
+$ rm -rf deneme.txt // Dosya Silme
+$ start dosyaAdı.txt // Dosya Acıyor 

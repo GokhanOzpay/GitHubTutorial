@@ -1,0 +1,14 @@
+
+Push : Uzak referansları ilişkili nesnelerle birlikte güncelleyin
+Kaynak : https://www.git-scm.com/docs/git-push
+
+Verilen referansları tamamlamak için gerekli nesneleri gönderirken yerel referansları 
+kullanarak uzak referansları günceller.
+
+Uzak Sunucudaki veri İletmek
+origin : Bağlantı İsmi
+master : branch İsmi bilgileri verdi
+$ git push origin // Sunucudaki Bütün Dosyaları Günceller 
+$ git push origin main // Sunucudaki main branch bilgilerini iletildi
+$ git push origin master
+$ git push -u origin master // Master branch Bilgileri Çekdi

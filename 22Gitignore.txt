@@ -1,0 +1,16 @@
+
+
+Gitignore : Yoksayılacak kasıtlı olarak izlenmeyen dosyaları belirtir
+Kaynak : https://www.git-scm.com/docs/gitignore 
+
+Kaynak Dosyasını Sunucuda Görmek İsdemeyiz Özel Dosyaları Gizlemek için Kullanılır
+xxx.gitignore Dosyasını Ekleme
+
+$ touch .gitignore // Gizli Dosya Ekleme
+icine dosya adları yazılır commit etildiğinde eklenen dosyalar commit de görünmez
+Örnek Olarak
+# Yorum Satırı
+private.txt
+
+Hazır Bazı Dosyaları Farklı Sekilde Gizleme Yöntemleti Linkde
+https://github.com/github/gitignore 

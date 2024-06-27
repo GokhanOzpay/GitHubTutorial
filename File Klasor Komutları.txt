@@ -11,7 +11,9 @@ $ rm -rf klasor adı // Klasoru Siliyor
 $ cd .. // Bir Önceki Klasor Yani Üst Klasor (parent)
 
 Dosya
-
+$ git mv DosyaAdı : yeniDosyaAdı // Dosya Adı Değişim Sağlar
+$ mv DosyaAdı : yeniDosyaAdı // Git Olmadan Dosya Adı Değişim Sağlar 
+		Bu Olayda Git Dosya Sildin Yeni Dosya Olusdurdun Gibi Algılıyor
 $ touch dosyaadı.txt//  Yeni Dosya Olusturmak için Kullanılır
 $ rm -rf deneme.txt // Dosya Silme
 $ start dosyaAdı.txt // Dosya Acıyor 

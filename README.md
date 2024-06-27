@@ -34,3 +34,5 @@ Dosyaları Gördünüz Gibi Numaralandı Sıralı Sekilde Gitilmesi Daha Rahat A
 * Remote : Uzak Sunucu ( GitHub ) İletisim Kontrolu
 	- Fetch : Başka bir depodan nesneleri ve referansları indirin
 	+ Pull : Başka bir depodan veya yerel şubeden alın ve bunlarla entegre olun
+	+ Push : Sunucuya Dosyaları İletme
+	+ Gitignore :Yoksayılacak kasıtlı olarak izlenmeyen dosyaları belirtir

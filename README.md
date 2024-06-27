@@ -32,5 +32,5 @@ Dosyaları Gördünüz Gibi Numaralandı Sıralı Sekilde Gitilmesi Daha Rahat A
 * Rebase : Taahhütleri başka bir temel ipucunun üzerine yeniden uygulayın
 * Stash : Değişiklikleri kirli bir çalışma dizininde saklayın
 * Remote : Uzak Sunucu ( GitHub ) İletisim Kontrolu
-- Fetch : Başka bir depodan nesneleri ve referansları indirin
-+ Pull : Başka bir depodan veya yerel şubeden alın ve bunlarla entegre olun
+	- Fetch : Başka bir depodan nesneleri ve referansları indirin
+	+ Pull : Başka bir depodan veya yerel şubeden alın ve bunlarla entegre olun

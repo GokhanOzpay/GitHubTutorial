@@ -1,0 +1,13 @@
+
+Fetch : Başka bir depodan nesneleri ve referansları indirin
+Kaynak : https://www.git-scm.com/docs/git-fetch
+
+Uzak Sunucudan Getirme ve Çekme
+git fetch komutunun verileri yalnızca yerel reponuza indirdiğini unutmamalısınız.
+Verileri herhangi bir çalışmanızla otomatik olarak birleştirmez veya üzerinde çalışmakta 
+olduğunuz kodu değiştirmez
+
+$ git fetch // GitHub'da Branchleri Alıyor
+$ git fetch <remote>
+$ git fetch origin // Origin Bağlantısı Bilgileri Cekmek
+$ git fetch -p // GitHub'da Kullanılmayanı Siliyor

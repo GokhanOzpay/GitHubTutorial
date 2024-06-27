@@ -27,3 +27,10 @@ Dosyaları Gördünüz Gibi Numaralandı Sıralı Sekilde Gitilmesi Daha Rahat A
 * Restore : Yapılan Değişikliği add (Staging Area) den Geri Alıyor
 * Reset : Commit Silme Yapılan İşlemleri Geri Alma Yada İsdenilen Commite Geri Dönüs
 * Merge : Branch Birlestirme
+* Revert : Mevcut taahhütlerden bazılarını geri alın
+* Diff : Taahhütler, taahhüt ve çalışma ağacı vb. arasındaki değişiklikleri göster
+* Rebase : Taahhütleri başka bir temel ipucunun üzerine yeniden uygulayın
+* Stash : Değişiklikleri kirli bir çalışma dizininde saklayın
+* Remote : Uzak Sunucu ( GitHub ) İletisim Kontrolu
+- Fetch : Başka bir depodan nesneleri ve referansları indirin
++ Pull : Başka bir depodan veya yerel şubeden alın ve bunlarla entegre olun

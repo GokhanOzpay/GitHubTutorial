@@ -1,0 +1,9 @@
+
+Pull : Başka bir depodan veya yerel şubeden alın ve bunlarla entegre olun
+Kaynak : https://www.git-scm.com/docs/git-pull
+
+git pull komutunu çalıştırmak genellikle verileri kopyaladığınız asıl sunucudan getirir 
+ve otomatik olarak bu verileri üzerinde çalışmakta olduğunuz kodla birleştirmeye çalışır.
+
+$ git pull origin master // Master Komple Çeker
+$ git pull origin feat/dosyaadı // feat branch daki dosyayı ceker

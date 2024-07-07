@@ -12,3 +12,18 @@ $ git push origin // Sunucudaki Bütün Dosyaları Günceller
 $ git push origin main // Sunucudaki main branch bilgilerini iletildi
 $ git push origin master
 $ git push -u origin master // Master branch Bilgileri Çekdi
+
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to  
+Böyle Bir Hata Alırsan
+
+Muhtemelen başka biri master'a çoktan itti ve sizin commit'iniz geride kaldı. 
+Bu nedenle değişiklik setini alıp birleştirmeniz ve sonra tekrar itebilmeniz gerekir.
+
+$ git pull ile Önce Yereli eşitle Sonra Push Etmeyi Dene
+
+veya
+
+$ git push origin main --force
+Eğer bunu yapmazsanız (veya daha da kötüsü, bu seçeneği kullanarak zorlarsanız --force), 
+commit geçmişini bozabilirsiniz.

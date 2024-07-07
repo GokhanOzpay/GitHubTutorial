@@ -1,0 +1,67 @@
+
+Clone : Depoyu yeni bir dizine kopyalayın 
+Kaynak : https://www.git-scm.com/docs/git-clone
+
+-l
+--local 
+Klonlanacak depo yerel bir makinede olduğunda, bu bayrak normal "Git uyumlu" 
+taşıma mekanizmasını atlar ve HEAD'in ve nesneler ve referans dizinleri altındaki 
+her şeyin bir kopyasını oluşturarak depoyu klonlar. 
+Mümkün olduğunda yerden tasarruf etmek için .git/objects/ dizini altındaki dosyalar sabit bağlantılıdır.
+
+-s
+--shared
+--shared ile klonlanmış bir depoda git repack'i --local seçeneği olmadan çalıştırmanın, 
+kaynak depodaki nesneleri klonlanmış depodaki bir pakete kopyalayacağını ve 
+--shared klonunun disk alanı tasarrufunu ortadan kaldıracağını unutmayın.
+
+-n
+--no-checkout
+Klonlama tamamlandıktan sonra HEAD'in hiçbir kontrolü yapılmaz.
+
+$ git clone https://*****/***.git // github Dosyaları kopyalıyor
+
+Yukarı akıştan klonla:
+$ git clone git://git.kernel.org/pub/scm/.../linux.git my-linux
+$ cd my-linux
+$ make
+
+Hiçbir şeyi kontrol etmeden geçerli dizinden ödünç alan yerel bir klon oluşturun:
+// . : Dosyanın İci Anlamında ../copy : Klasor Olustur Ve İcine Kopyala
+$ git clone -l -s -n . ../copy // Burda . ../copy 
+$ cd ../copy
+$ git show-branch
+
+Mevcut bir yerel dizinden ödünç alırken yukarı akıştan klonlayın:
+$ git clone --reference /git/linux.git \
+	git://git.kernel.org/pub/scm/.../linux.git \
+	my-linux
+$ cd my-linux
+
+Değişikliklerinizi herkese açık olarak yayınlamak için çıplak bir depo oluşturun:
+$ git clone --bare -l /home/proj/.git /pub/scm/proj.git
+
+SSH Kullanarak
+
+Add
+$ git ssh-keygen
+Enter file in which to save the key (/c/Users/gokha/.ssh/id_ed25519): enter Default yada isimlendir yeni yol
+default : /c/Users/gokha/.ssh/id_ed25519 
+
+Enter passphrase (empty for no passphrase): Sifre 
+Enter same passphrase again: Sifre Tekrarı
+
+$ cat /c/Users/gokha/.ssh/id_ed25519.pub // Altdaki Kodu Vercek
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKnVb2fLuwB29bKrJFhL5Z52uGIc8Qu30zuCf6t9FJJB gokhan@Gokhan
+
+Github Setting->SS and GPG kesys 
+new SSH Key Tıkla
+title : Baslık
+Key Type : 
+key :Ustki Gibi kopyaladığın key Yapıstır
+
+
+$ git clone git@github.com:GokhanOzpay/GitHubTutorial.git
+Enter passphrase for key '/c/Users/gokha/.ssh/id_ed25519': Sifre 
+Dosyalar inmiş Olcak güvenli Bağlantı ile 

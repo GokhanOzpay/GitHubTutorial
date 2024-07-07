@@ -1,0 +1,16 @@
+
+
+Repository : Depolama Alanı
+Kaynak : https://docs.github.com/en/get-started/start-your-journey/hello-world
+
+ilk Repository  Olusturma
+Sağ Tarafda Açılır Menu de new Repository Tıklayınca Yeni Repository Olusturmak için Sayfa Acılır.
+Owner : Profil İsmi / Repository name : Repository Adı Girilir
+Description : Tanım Bilgisi Girilir isdeğe Bağlı
+Public : Repository Paylasıma Acık Diğer Kullanıcılar Repository Görür.
+Private : Repository Paylasıma Kapalı Diper Kişiler Göremez
+Add a README file : Repository Sayfasında Cıkan Biligilendirme Dosyası
+Add .gitignore : Repository ile Local Arasında hangi dosyaların izlenmeyeceğini seçin
+Choose a License : Lisans
+
+Create Repository İle Olusturmus Oluruz 

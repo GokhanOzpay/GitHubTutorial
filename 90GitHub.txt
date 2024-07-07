@@ -1,0 +1,16 @@
+
+
+GitHub : İş üzerinde işbirliği yapmak için GitHub ve Git'i kullanabilirsiniz.
+Kaynak : https://docs.github.com/en
+
+Takım olarak çalışılmasına olanak sağlıyor.  
+Verilerin depolanmasına yardımcı oluyor.  
+Yazılım yönetiminin bireysel olarak ya da grup olarak yönetilmesini sağlıyor.  
+Oldukça güçlü bir depolama alanı oluyor.   
+Sürümlerde yaşanan değişimler kolay bir şekilde gözlemlenebiliyor.  
+Çalışmalar basit bir şekilde sergilenebiliyor. 
+
+Tamemen Üçretsizdir 
+https://github.com/ Adresinden Üyelik işlemini Gerçekleşir
+
+En cok Kullanılan İşlemleri Paylascam

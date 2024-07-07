@@ -1,0 +1,35 @@
+
+Fork : GitHub'da, kişisel hesabınıza bağlı, kod ve görünürlük ayarlarını orijinal 
+	("yukarı akış") depoyla paylaşan yeni bir depo oluşturmak için.
+Kaynak : https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo
+
+Fork (Çatallama)	
+Bu deponun amacı GitHub üzerinde bir deponun çatallanmasına dair bir örnek sağlamaktır .
+Bir çatal oluşturmak, başka birinin projesinin kişisel bir kopyasını üretmektir. 
+Çatallar, orijinal depo ile kişisel kopyanız arasında bir tür köprü görevi görür. 
+Değişikliklerinizi orijinal projeye kadar sunarak diğer insanların projelerini daha iyi hale getirmek 
+için Çekme İstekleri gönderebilirsiniz . Çatallama, GitHub'daki sosyal kodlamanın merkezindedir.
+
+Fork Yapılcak Proje Seçilir
+Proje Sağ Tarafında Fork Tıklaman Yeterli Olur Acılan Pencerede Description Yazabilirsin
+İşlem Sonucu Kendi Hesabında Aynı Repository Gelecekdir.
+
+Kendi Repository Uzerinde Çalısmaları Gerçeklestirdikden Sonra Commit Etikden Sonra 
+GitHub Geri Gel Repository->Contribute->Open Pull request
+Acılan Pencerede 
+Add a title : Bir Başlık Gir
+Add a description : Tanım Yabdığın Değişiklik Hakkında
+Bir İsdekde Bulunursun
+
+Proje Sahibi Repository->Pull request de İletiyi Görcekdir.
+Gelen Dosya Acdığında 
+review changes Approve (olumlu) mesajına yanıt yazılarak kabul işlemi karsıya mesaj göderilir
+Merge pull request ile proje birlesir
+Close pull request ile kapatabiliriz yorum yazarak
+
+Private Olan Repository Fork Yabma
+private olan proje setting ->Collaborators ( işbirlikçilr)
+Add people İle Ekliyoruz karsı tarafım emaile gelen mesajla kabul etmesi beklenir
+push etince direk projeye ekliyor
+daha güvenli sekilde olması için
+$ git push origin BranchAdı/dosyaadı

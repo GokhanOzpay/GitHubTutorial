@@ -36,3 +36,10 @@ Dosyaları Gördünüz Gibi Numaralandı Sıralı Sekilde Gitilmesi Daha Rahat A
 	+ Pull : Başka bir depodan veya yerel şubeden alın ve bunlarla entegre olun
 	+ Push : Sunucuya Dosyaları İletme
 	+ Gitignore :Yoksayılacak kasıtlı olarak izlenmeyen dosyaları belirtir
+	+ Clone : Sunucudan Dosya Kopyalama
+* File Klasor Komutları : CMD Ve Terminal Dosya ve Kalsor İşlemleri
+* ReadmeStyle : GitHub README.md Dosyası Görünüm İçin Kullanılan Stil Komutları
+* GitHub 
+	- GitHub : Kullanım Alanı Bilgisi
+	* Repository : Depolama Alanı
+	* Fork : Baska Repository Kendi Repository Ekleme İşleme

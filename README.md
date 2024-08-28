@@ -15,7 +15,7 @@ Dosyaları Gördünüz Gibi Numaralandı Sıralı Sekilde Gitilmesi Daha Rahat A
 - Giris : Kurulum Hatırlatması
 * Help : Bir Yardım İhtiyacında Nerden Bilgi Alıncağı
 * init : Git Projeye Ekleme İşlemi
-* Staus : Yapılan İşlemleri Gözetleme
+* Status : Yapılan İşlemleri Gözetleme
 * Config : Kurulum Esnasında Olusan Durumlar Git Ayarları Değişistirme
 * Branch : Kelime Anlamı Dal Olsada Projede Farklı Yolda İşleme Diyebiliriz.
 * HEAD : Projenin Hangi Kısmında Çalısdığını Gösteren Kısım

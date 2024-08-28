@@ -1,0 +1,49 @@
+
+ git push -u origin master
+Veya
+git clone git@github.com:GokhanOzpay/GitHubTutorial.git
+
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Hata Nedeni :
+GitHub sizi doğrulayamıyor. Yani, ya makinenizde bir SSH anahtarı ayarlamadığınız için bir SSH anahtarınız yok ya da anahtarınız GitHub hesabınızla ilişkilendirilmemiş.
+
+Cözüm : 
+git clone https://github.com/GokhanOzpay/GitHubTutorial.git
+
+ssh Yükleme
+
+https://docs.github.com/en/enterprise-cloud@latest/authentication/troubleshooting-ssh/error-permission-denied-publickey
+
+Bağlantı Kontrolu 
+ssh -T git@github.com
+Hi USERNAME! You've successfully authenticated... Varsa Bağlantı Var Demekdir.
+
+Yoksa Yeni Kullanmak İçin
+https://docs.github.com/en/enterprise-cloud@latest/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+Enter file in which to save the key (/c/Users/YOU/.ssh/id_ALGORITHM):[Press enter]
+Enter passphrase (empty for no passphrase): [Type a passphrase( Bir parola yazın)] Yada Boş Geç [Press enter]
+Enter same passphrase again: [Type passphrase again ( Bir parola yazın) ] Yada Boş Geç [Press enter]
+
+Your public key has been saved in /c/Users/gokha/.ssh/id_ed25519.pub ( Burası Önemli /c/Users/gokha/.ssh/id_ed25519.pub)
+ssh Klasore Gitiyor
+cd ~/.ssh
+Liteleme
+ls 
+Liste İcin Olan Dosya Açma
+cat id_ed25519.pub
+veya Üsdeki Direk Yol Kobyası İle
+cat /c/Users/gokha/.ssh/id_ed25519.pub
+Buna Benzer Bir Sey Gelcek
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIM3/DsZCJXZkdETClKBEm3/O7DtlRlFei/CzncZ1RHPc gokha@PC
+
+github sitesinde profile setting->SSH and GPG keys
+new SSH key ile Yeni Olustur Artık 
+git clone git@github.com:GokhanOzpay/GitHubTutorial.git Kullanır Olcak
+
